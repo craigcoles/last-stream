@@ -7,10 +7,7 @@ import expressWs from "express-ws";
 import path from "path";
 import cookieParser from "cookie-parser";
 import logger from "morgan";
-import moment from "moment";
 import { LastFmNode } from "lastfm";
-
-import index from "./routes/index";
 
 //=== Express Config
 const app = express();
